@@ -3,9 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Ronnie Lao" />
+    <meta
+          name="description"
+          content="WDD 131 - Dynamic Web Fundamentals home page containing information on author Ronnie Lao and links to LinkedIn, 
+          I-learn, and final project." />
+        
+    <title>WDD 131 - Dynamic Web Fundamentals - Ronnie Lao</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>WDD 131</h1>
+    <header>
+        <h1>WDD 131 - Dynamic Web Fundamentals - Ronnie Lao</h1>
+            <nav>
+                <ul>
+                    <li><a href="">LinkedIn</a></li>
+                    <li><a href="https://byui.instructure.com/">I-Learn</a></li>
+                    <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/5?lang=eng&id=p7-p9#p7">Scripture</a></li>
+                    <li><a href="">Final Project</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <div class="author">
+                <img src="images/profile.jpg" width="200" alt="Author picture">
+                <p> My name is Ronnie. I was born in California. I come from an immigrant family where english was my second language I am a stay at home dad to 2 lovely girls. One is 2 year old and the other is a new born. I love fishing and enjoy the outdoors.</p>
+            </div>
+
+            <div class="state">
+                <h3>California, USA</h3>
+                <div class="info">
+                    <figure>
+                        <img src="./images/california flag.jpg" width="200" alt="California flag">
+                        <figcaption>Official flag of the USA</figcaption>
+                    </figure>
+                    <p>California, is part of the Western United States. It is famous for its wonderful sunshine, and diverse culture. It is also known as the land of fruits and nuts. With many that are exported thourgh out the U.S. such as almonds, strawberries, and peaches. The state capital is located in the great city of Sacramento.</p> 
+                </div>
+            </div>
+
+        </section>
+
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <div class="resources">
+                <ul>
+                    <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs</a></li>
+                    <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©️<span id="currentyear"></span> Ronnie Lao Idaho</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
