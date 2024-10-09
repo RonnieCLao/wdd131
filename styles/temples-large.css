@@ -1,18 +1,13 @@
 @media only screen and (min-width: 600px) {
-    nav ul {
-        flex-direction: row;
+    #mini-menu {
+        display: flex;
+        position: static;
+        flex-direction: column;
+        flex: 1 1 100%;
     }
-
-    nav ul li:first-child {
-        display: none;
-    }
-
-    nav ul li {
-        display: block;
-    }
-
     #hamburger-menu {
         display: none;
     
     }
+
 }
