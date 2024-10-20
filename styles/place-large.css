@@ -1,0 +1,25 @@
+@media (min-width: 1000px) {
+    body {
+        font-size: 18px;
+    }
+
+    header {
+        padding: 30px;
+        background-color: #3b3a3a;
+    }
+
+    main {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+    }
+
+    .data, .weather {
+        width: 45%;
+        margin: 20px;
+    }
+
+    picture {
+        max-width: 50%;
+    }
+}

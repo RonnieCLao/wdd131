@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A page about San Diego California for WDD 131 course.">
+    <meta name="author" content="Ronnie Lao">
+    <title>San Diego - California</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>San Diego - California</h1>
+    </header>
+    <main>
+        <picture>
+            <source media="(min-width: 800px)" srcset="/images/san-diego-500.webp">
+            <source media="(min-width: 400px)" srcset="/images/san-diego-300.webp">
+            <img src="images/san-diego-500.webp" alt="Beach in San Diego">
+        </picture>
+        <section class="data">
+            <h2>DATA</h2>
+            <p><span class="label">Population:</span> 1,381,162</p>
+            <p><span class="label">Population Density:</span> 4,258 per square mile</p>
+            <p><span class="label">Languages:</span> English</p>
+            <p><span class="label">Currency:</span> USD</p>
+            <p><span class="label">Time Zone:</span> Pacific Standard Time</p>
+        </section>
+        <section class="weather">
+            <h2 class="weather-title">WEATHER <span class="weather-icon"><img src="/images/weather.svg" alt="weather icon"></span></h2>
+            <p><span class="label">Temperature:</span> 75°F</p>
+            <p><span class="label">Conditions:</span> Partly Cloudy</p>
+            <p><span class="label">Wind:</span> 10 mph</p>
+
+            <p><span class="label">Humidity:</span> 18%</p>
+        </section>
+    </main>
+    <footer>
+        <span id="year"></span>
+        <p id="lastmodified"></p>
+    </footer>
+</body>
+</html>
