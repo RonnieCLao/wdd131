@@ -1,0 +1,12 @@
+@media only screen and (min-width: 600px) {
+    #mini-menu {
+        display: flex;
+        position: static;
+        flex-direction: column;
+        flex: 1 1 100%;
+    }
+    #hamburger-menu {
+        display: none;
+    
+    }
+}
