@@ -1,0 +1,21 @@
+@media (min-width: 768px) { 
+    #featured-img {
+        justify-content: space-between; 
+    }
+  
+    #featured-img img {
+        width: 45%; 
+        margin: 10px;
+    }
+  
+    #foods img {
+      width: 45%;
+      display: inline-block;
+      margin: 10px;
+    }
+  
+    .slideshow-att {
+      height: 300px; 
+    }
+  }
+  

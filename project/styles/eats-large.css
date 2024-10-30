@@ -1,0 +1,40 @@
+
+@media (min-width: 768px) { 
+    main {
+        text-align: left;
+        padding: 80px; 
+    }
+
+    .ramen img, .saigon img, .farolito img, .the-hat img, .bakery img {
+        width: 30%; 
+        margin: 15px; 
+    }
+
+    .ramen, .korean, .saigon { 
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: space-around; 
+    }
+
+    .ramen img, .saigon img {
+        max-width: 300px; 
+    }
+
+    .asian-food, .worthy-eats, .deserts {
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: space-around; 
+    }
+
+    .asian-food > div, .worthy-eats > div, .deserts > div {
+        flex-basis: 45%; 
+        margin: 10px;
+        box-shadow: 0 0 30px #484646;
+    }
+
+    .asian-food > div img, .worthy-eats > div img, .deserts > div img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+}
